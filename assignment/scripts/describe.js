@@ -21,18 +21,19 @@ number++;
 if (number >= 2) {
   console.log('yes');
 }
+  */
 
-*/
+
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
-//
-//
-//
+// We declared a variable called name and set it to Dane.
+// Then we test with conditional statement if the name variable is equal to 'Marry'.
+//Afterward we console.log Hi Mary!. 
+// And then we console.log how do you do? 
+//in this case, name is set Dane.
+// Therefore it will execute the second block of the statement 
+// The output will be how do you do?
 
 //CODE
 /*
@@ -48,10 +49,17 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared variable called secret, and didn't set anything to it.
+// We declared variable called code and initialized with the number 123.
+// Then we have conditional statement that checks if code is equal to 123.
+// Since it's true, we assign the variable secret to super.
+// And then the variable code is multiplied to 2.
+// Next we have another conditional statement to check if code is greater than 250.
+// if secret variable is true, we set it to duper.
+// Since code is not greater than 250, it will not execute.
+// lastly we console.log secret
+// the output will be super 
+
 
 //CODE
 /*
@@ -73,10 +81,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare three variable named isStudent, age and zib and we initialized all three. 
+// We test if isStudent is true AND zip is greater than 80000. we console.log `You're a student on the West Coast!`.
+// We then check else if condition if isStudent is false AND age is less than 30. we console.log what are your hobbies. 
+// Next we check if isStudent is true and console.log welcome to Prime.
+// lastly, we have another console.log 'how about the weather.
+// this code will output welcome to Prime .
 
 //CODE
 /*
@@ -133,12 +143,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// fix colorONe should be set to blue 
 let colorOne = 'red';
+//colorTow should be set to red 
 let colorTwo = 'blue';
 let mix = true;
-
+// solution: we only set colorOne to Purple , we also need to set colorTwo purple as described above
 if (mix === true) {
+// correcting to set both colors .
   colorOne = 'purple';
+  ColorTwo = 'purple';
 }
 */
 
@@ -149,8 +163,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
-if (temp > 39 || time >= 4) {
+// potential solution: we should use and(&&) logical operator instead of or ||. console.log throw away food 
+//fixed: logical operator && 
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -162,11 +177,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+// -- there is a logical error in our code, since we want people over 21 to enter.
+// fixed age is greater or equal 
+if(age >=minAge) {
+//we went people over the minAge to gain entry so we console,log entry 
   console.log('enter');
+} else {
+ // deny entry if age is under 21 
+  console.log(' no entry');
 }
+  // it will output enter 
 */
 
