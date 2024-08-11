@@ -33,7 +33,7 @@ if (number >= 2) {
 // And then we console.log how do you do? 
 //in this case, name is set Dane.
 // Therefore it will execute the second block of the statement 
-// The output will be how do you do?
+// The output will be,  how do you do?
 
 //CODE
 /*
@@ -144,9 +144,9 @@ if (number >= 2) {
 
 /*
 // fix colorONe should be set to blue 
-let colorOne = 'red';
+let colorOne = 'blue';
 //colorTow should be set to red 
-let colorTwo = 'blue';
+let colorTwo = 'red';
 let mix = true;
 // solution: we only set colorOne to Purple , we also need to set colorTwo purple as described above
 if (mix === true) {
